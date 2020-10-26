@@ -1,0 +1,13 @@
+curl --request GET --url http://localhost:8090/products/api/v1/category/1
+
+curl --request GET --url http://localhost:8090/products/api/v1/category/findAll --header 'content-type: application/json'
+
+curl --request GET --url http://localhost:8090/products/api/v1/product/1
+
+curl --request GET --url http://localhost:8090/products/api/v1/product/findAll
+
+curl --request POST --url http://localhost:8090/products/api/v1/product --header 'content-type: application/json' --data '{"sku" : "666", "price" : 0.0, "name" : "new product", "category" : { "idCategory" : 1 } }'
+
+curl --request PUT --url http://localhost:8090/products/api/v1/product/update/22 --header 'content-type: application/json' --data '{ "idProduct" : 22, "sku" : "SKU666", "price" : 0.0, "name" : "new product", "category" : { "idCategory" : 1 }}'
+
+curl --request DELETE --url http://localhost:8090/products/api/v1/product/delete/22 --header 'content-type: application/json'

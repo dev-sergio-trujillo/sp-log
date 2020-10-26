@@ -1,0 +1,103 @@
+{
+  "idCategory": 1,
+  "category": "Mac",
+  "createdAt": "2020-10-25",
+  "products": [
+    {
+      "idProduct": 1,
+      "sku": "SKU23243",
+      "price": 32999,
+      "name": "MacBook Air",
+      "createdAt": "2020-10-25",
+      "category": null,
+      "_links": {
+        "self": {
+          "href": "http://host.docker.internal:58243/product/1"
+        }
+      }
+    },
+    {
+      "idProduct": 2,
+      "sku": "SKU23456",
+      "price": 57499,
+      "name": "MacBook Pro 13",
+      "createdAt": "2020-10-25",
+      "category": null,
+      "_links": {
+        "self": {
+          "href": "http://host.docker.internal:58243/product/2"
+        }
+      }
+    },
+    {
+      "idProduct": 3,
+      "sku": "SKU76765",
+      "price": 65999,
+      "name": "MacBook Pro 16",
+      "createdAt": "2020-10-25",
+      "category": null,
+      "_links": {
+        "self": {
+          "href": "http://host.docker.internal:58243/product/3"
+        }
+      }
+    },
+    {
+      "idProduct": 4,
+      "sku": "SKU23465",
+      "price": 41999,
+      "name": "iMac",
+      "createdAt": "2020-10-25",
+      "category": null,
+      "_links": {
+        "self": {
+          "href": "http://host.docker.internal:58243/product/4"
+        }
+      }
+    },
+    {
+      "idProduct": 5,
+      "sku": "SKU78534",
+      "price": 139999,
+      "name": "iMac Pro",
+      "createdAt": "2020-10-25",
+      "category": null,
+      "_links": {
+        "self": {
+          "href": "http://host.docker.internal:58243/product/5"
+        }
+      }
+    },
+    {
+      "idProduct": 6,
+      "sku": "SKU32478",
+      "price": 134999,
+      "name": "Mac Pro",
+      "createdAt": "2020-10-25",
+      "category": null,
+      "_links": {
+        "self": {
+          "href": "http://host.docker.internal:58243/product/6"
+        }
+      }
+    },
+    {
+      "idProduct": 7,
+      "sku": "SKU23435",
+      "price": 28999,
+      "name": "Mac mini",
+      "createdAt": "2020-10-25",
+      "category": null,
+      "_links": {
+        "self": {
+          "href": "http://host.docker.internal:58243/product/7"
+        }
+      }
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "http://host.docker.internal:58243/category/1"
+    }
+  }
+}
